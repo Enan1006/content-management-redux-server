@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000;
 
 // Middleware Connections
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'https://content-management-e8ff2.web.app/'
 }))
 app.use(express.json())
 
